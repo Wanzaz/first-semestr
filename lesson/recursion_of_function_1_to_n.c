@@ -3,11 +3,10 @@
 
 void vypis(int n)
 {
-    char space = ' ';
     if(n==0)
         return;
     vypis(n - 1);
-    printf("%c %d", space, n);
+    printf("%d ", n);
 } 
 
 int main( )
