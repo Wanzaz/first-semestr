@@ -1,0 +1,4 @@
+int Pole [7]
+//C nekontroluje konec pole (volna pamet)
+pole[2] = 3;
+pole[10] = 1; //spatne, protoze to C nehlida
