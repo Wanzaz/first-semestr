@@ -14,7 +14,7 @@ int main( )
     int n;
     printf("Zadej cislo: ");
     scanf("%d", &n);
-    vypis(10);
+    vypis(n);
     return 0;
 } 
 
