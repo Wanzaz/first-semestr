@@ -7,7 +7,10 @@ int main()
 {
   int i, pole[POCET];
   for(i=0;i<POCET;i+++)
+  {
     pole[i] = 0;
+  }
+  return 0;
 }
 
 /*
