@@ -6,4 +6,5 @@ int main()
   int cisla[MAX];
   float r_cisla[2 + MAX];
   char veta[MAX + 1];
+  return 0;
 }
