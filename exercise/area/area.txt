@@ -2,3 +2,7 @@ int Pole [7]
 //C nekontroluje konec pole (volna pamet)
 pole[2] = 3;
 pole[10] = 1; //spatne, protoze to C nehlida
+//pole nemá 100 index ani -1
+//vzdy začíná na 0 pr. int Pole[7] je 0 az 6
+//nikdy prvky v poli nemají počáteční hodnotu nastavenou na 0
+//neexistuje kopirovani poli ani porovnavani (maximalne ve funkci nebo po jednom prvku)
