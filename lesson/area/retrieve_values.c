@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void retrieve_are(int a[], int n) //n = current size of area, a[] = maximal size of area
+void retrieve_area(int a[], int n) //n = current size of area, a[] = maximal size of area
 {
   int i;
   for(i=0;i<POCET;i+++)
