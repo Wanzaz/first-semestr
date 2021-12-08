@@ -7,7 +7,6 @@ void list_area(int a[], int n) //a[] = square brackets are empty, if you write s
   {
     printf("%d", a[i]);
   }
-  return 0;
 }
 
 int main()
