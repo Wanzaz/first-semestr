@@ -13,6 +13,7 @@ void vloz(int a[], int n)
 
 int main()
 {
-  printf("%d", vloz());
+  int a[10], n;
+  vloz(a, n);
   return 0;
 }

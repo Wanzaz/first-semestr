@@ -13,6 +13,6 @@ void vloz_petky(int a[], int n)
 
 int main()
 {
-  printf("%d", vloz_petky());
+  vloz_petky();
   return 0;
 }
