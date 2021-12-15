@@ -46,7 +46,20 @@ void vyplnDvemaZnaky (int znaky2[], int n, char znak, char znak2)
     }
 }
 
+void vyplnDvemaZnakyDoPoloviny (int znaky3[], int n, char znak, char znak2)
+{
+     int i;
+     for(i=0;i<n/2;i++)
+     {
+          znaky3[i]=znak;
+     }
+     
+     for(i=n/2;i<n;i++)
+     {
+          znaky3[i]=znak2;
+     }
 
+}
 
 int main()
 {
@@ -58,18 +71,19 @@ int main()
 
     scanf("\n%c", &znak);
     printf("Zadej druhy znak, kterym pole bude vyplneno:  ");
-    scanf("\n%c", &znak2);
+    scanf("\n%c", &znak2); //mohlo by to byt nahrazeno "%1s" coz je vlastne jen jeden string aby ten buffer nebral tu mezeru jako znak
 
 
 
 
     vyplnZnakem(znaky1, n, znak);
     vyplnDvemaZnaky(znaky2, n, znak, znak2);
+    vyplnDvemaZnakyDoPoloviny(znaky3, n, znak, znak2);    
 
     vypis(znaky1, n);
 
     vypis(znaky2, n);
 
-
+    vypis(znaky3, n);
     return 0;
 }
