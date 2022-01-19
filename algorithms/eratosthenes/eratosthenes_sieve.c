@@ -45,10 +45,12 @@ int main()
     printf("Zadej velikost: ");
     scanf("%d", &n);
 
-    int pole[n+1];
+    //int pole[n+1];
+    int pole=malloc((n+1)*sizeof(int)); //dynamic area
     inicializace(pole, n+1);
     eratosthen(pole, n+1);
     vypis(pole,n+1);
 
     return 0;
 }
+
