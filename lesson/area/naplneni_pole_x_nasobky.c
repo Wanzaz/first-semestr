@@ -5,7 +5,7 @@ void nasobky(int a[],int n,int x)
   int i, x=4;
   for(i=0;i<n;i++)
   {
-    a[i]=x*i;
+    a[i]=xa[i];
   }
 }
 
