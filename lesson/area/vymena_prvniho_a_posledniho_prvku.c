@@ -5,7 +5,7 @@ void vymena(int n, int pole[])
 {
   int pom;
   pom = pole[0];
-  pole = pole[n - 1];
+  pole[0] = pole[n - 1];
   pole[n - 1] = pom;
 }
 
