@@ -11,6 +11,8 @@
 2.7. Aplikujte funkci na řetězce prijmeni a jmeno a znovu vypište větu z bodu 2. 3.
 */
 
+
+//muzes pouzit funkci sprintf() (budoucnost)
 void slouceni(char prijmeni[], char jmeno[], char prijmeniJmeno[])
 {
     int i=0, j=0;
