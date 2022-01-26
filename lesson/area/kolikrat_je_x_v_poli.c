@@ -2,7 +2,7 @@
 
 //kolikrat se x vyskytuje v poli?
 
-int kolikrat(int pole[], n, x)
+int kolikrat(int pole[], int n, int x)
 {
   int i, pocet=0;
   
