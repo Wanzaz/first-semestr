@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void nacteni(int a[], int n)
+void nacteni(char a[], int n)
 {
     int i;
     for(i=0;i<n;i++)
@@ -11,7 +11,7 @@ void nacteni(int a[], int n)
     }
 }
 
-void vypis(int p[], int n)
+void vypis(char p[], int n)
 {
   for (int i = 0; i < n; i++)
   {
