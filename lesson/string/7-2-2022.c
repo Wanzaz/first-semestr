@@ -10,13 +10,11 @@ int delka_retezce(char str[])
 }
 
 
-//funkce od ucitelky
-
 void vloz_na_zacatek(char str[],char znak)
 {
     int konec = delka_retezce(str);
     int i;
-    for(i=konec; i > 0; i--)
+    for(i=konec; i >= 0; i--)
         str[i + 1] = str[i];
     str[0] = znak;
     //str[konec] = '\0';
@@ -24,7 +22,6 @@ void vloz_na_zacatek(char str[],char znak)
 
 
 // prevod z desitkove do dvojkove soustavy
-//zatim to nefunguje
 void prevod(int num, char str[])
 {
     int konec = delka_retezce(str);
