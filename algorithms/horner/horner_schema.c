@@ -37,6 +37,6 @@ int main()
   printf("Zadej cislo: ");
   scanf("%f", &cislo);
 
-  printf("Hodnora mnohoclenu je %.2f",Horner(koef,5,cislo) );
+  printf("Hodnota mnohoclenu je %.2f",Horner(koef,5,cislo) );
   return 0;
 }
