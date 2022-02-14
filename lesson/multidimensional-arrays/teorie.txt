@@ -1,0 +1,7 @@
+Vícerozměrná pole
+
+-první řádkový index, pak sloupcový
+-ukládání po řádcích
+-někdy se jim říká matice
+-Načtení: první for prochází pr řádcích, n=řádky, m=sloupce
+-Výpis: Odentrovat na konci každého řádku
