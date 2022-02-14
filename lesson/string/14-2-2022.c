@@ -27,10 +27,10 @@ int capital(char str[], int n)
 }
 
 //by teacher
-int capital_letter(char a)
+int capital_letter(char a[])
 {
     int i, quantity=0;
-    for(i=0; a[i] = '\0';i++)
+    for(i=0; a[i] ;i++)
     {
         if(a[i] >= 'A' && a[i] <= 'Z')
             quantity++;
@@ -39,10 +39,10 @@ int capital_letter(char a)
 }
 
 //small letter to capital letters
-void small_to_capital(str[])
+void small_to_capital(char str[])
 {
     int i;
-    for(i=0;str[i] = '\0'; i++)
+    for(i=0; str[i] ; i++)
     {
         if(str[i] >= 'a' && str[i] <= 'z')
         {
@@ -56,6 +56,8 @@ int main()
     int n = 5;
     char a[5];
     abb(a, n);
+    puts(a);
+    small_to_capital(a);
     puts(a);
     return 0;
 }
