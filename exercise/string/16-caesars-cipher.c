@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+1. Caesarova šifra: Následující text si vložte do řetězce: "srudgdp vudc mdvqrylgfx. ngh, ngb d y nroln suhgsrnodgdp ylwh."  Zkuste ho rozšifrovat samozřejmě funkcí. Stačí vypsat výsledek. Zkuste to sami jakkoliv. Zašifrovaná jsou pouze písmena, ostatní znaky ponechte tak jak jsou. Pro zjednodušení používám jen malá písmena.
+
+
+2. Oprava Caesarovy šifry s učitelem. Funkce bude mít vstupní a výstupní řetězec a celé číslo pro posun.
+*/
+
 // spatne reseni
 /*void cesar_encrypt(char str[], int shift) {
     int i = 0;
