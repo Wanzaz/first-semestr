@@ -50,6 +50,7 @@ void cross(char str[], int n)
 }
 
 // by teacher
+//it is wrong solution so don't use it and try to find the mistake
 void cross2(char str[], int n)
 {
     int i;
