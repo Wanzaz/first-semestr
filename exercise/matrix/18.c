@@ -69,9 +69,9 @@ int main()
 
 void init(char mat[][100], int n, char character)
 {
-    for (int i = 0; i < n; i++)
+    for (i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (j = 0; j < n; j++)
             mat[i][j] = character;
     }
 }
@@ -79,9 +79,9 @@ void init(char mat[][100], int n, char character)
 void list(char mat[][100], int n)
 {
     printf("\n");
-    for (int i = 0; i < n; i++)
+    for (i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (j = 0; j < n; j++)
             printf("%c ", mat[i][j]);
         printf("\n");
     }
@@ -90,9 +90,9 @@ void list(char mat[][100], int n)
 //2
 void chess(char mat[][100], int n)
 {
-    for (int i = 0; i < n; i++)
+    for (i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (j = 0; j < n; j++)
         {
             if((i+j)%2==0)
                 mat[i][j] = '\333';
@@ -120,9 +120,9 @@ void diagonals(char mat[][100], int size)
 void diagonals2(char mat[][100], int size, char character)
 {
     int i, j;
-    for (int i = 0; i < size; i++)
+    for (i = 0; i < size; i++)
     {
-        for (int j = 0; j < size; j++)
+        for (j = 0; j < size; j++)
         {
             if((i==j) | (i + j) == size - 1)
                 mat[i][j] = character;
@@ -133,9 +133,9 @@ void diagonals2(char mat[][100], int size, char character)
 void diagonals_minu_plus(char mat[][100], int size)
 {
     int i, j;
-    for (int i = 0; i < size; i++)
+    for (i = 0; i < size; i++)
     {
-        for (int j = 0; j < size; j++)
+        for (j = 0; j < size; j++)
         {
             //side diagonal filled
             //if((i + j) > size - 1)
