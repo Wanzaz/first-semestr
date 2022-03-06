@@ -69,6 +69,7 @@ int main()
 
 void init(char mat[][100], int n, char character)
 {
+    int i, j;
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
@@ -78,6 +79,7 @@ void init(char mat[][100], int n, char character)
 
 void list(char mat[][100], int n)
 {
+    int i,j;
     printf("\n");
     for (i = 0; i < n; i++)
     {
@@ -90,6 +92,7 @@ void list(char mat[][100], int n)
 //2
 void chess(char mat[][100], int n)
 {
+    int i, j;
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
