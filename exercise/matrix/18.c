@@ -127,7 +127,7 @@ void diagonals2(char mat[][100], int size, char character)
     {
         for (j = 0; j < size; j++)
         {
-            if((i==j) | (i + j) == size - 1)
+            if((i==j) | ((i + j) == size - 1))
                 mat[i][j] = character;
         }
     }
