@@ -52,7 +52,7 @@ void menu()
     printf("Enter 2 for inserting your numbers into matrix\n");
     printf("Enter 3 for inserting one specific number into matrix\n");
     printf("Enter 4 for listing matrix\n");
-    printf("Enter 0 for quit/n");
+    printf("Enter 0 for quit\n");
 }
 
 void init_random(int mat[][100], int size_column, int size_row)
