@@ -8,7 +8,6 @@ void retrieve_area(int a[], int n) //n = current size of area, a[] = maximal siz
     printf("Enter %d. element of area: ", i + 1);
     scanf("%d", &a[i]);
   }
-  return 0;
 }
 
 int main()
